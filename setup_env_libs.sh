@@ -6,3 +6,5 @@ source ./env/bin/activate
 git clone https://github.com/ultralytics/yolov5
 cd yolov5
 pip install -r requirements.txt 
+cd ~ 
+python3 scripts/test.py
